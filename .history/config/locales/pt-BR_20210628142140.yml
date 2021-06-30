@@ -1,0 +1,6 @@
+en:
+  hello: "Olá Mundo!"
+  links:
+    edit: "Edotar"
+    show: "Mstrar"
+    delete: "Delete"
