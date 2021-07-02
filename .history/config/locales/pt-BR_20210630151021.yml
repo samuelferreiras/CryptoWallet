@@ -1,0 +1,6 @@
+pt-BR:
+  hello: "Olá Mundo!"
+    links:
+    edi: "Edit"
+    show: "Show"
+    delete: "Delete"
