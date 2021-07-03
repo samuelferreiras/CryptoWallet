@@ -1,0 +1,7 @@
+'pt-BR':
+  activerecord
+    models:
+      user: Dude
+    attributes:
+      user:
+        login

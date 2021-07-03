@@ -1,0 +1,8 @@
+'pt-BR':
+  activerecord
+    models:
+      user: Dude
+    attributes:
+      user:
+        login: "Handle"
+      # will translate User attribute "login"

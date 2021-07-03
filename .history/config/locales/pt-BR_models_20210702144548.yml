@@ -1,0 +1,9 @@
+'pt-BR':
+  activerecord
+    models:
+      coin: Moeda
+      mining_type:
+    attributes:
+      user:
+        login: "Handle"
+      # will translate User attribute "login" as "Handle"
