@@ -13,4 +13,8 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery
+//= require notify
 
+<% msg = Time.now.hour < 12 ? "Bom dia!" : "Olá!!!" %>
+alert("<%= msg %>");
