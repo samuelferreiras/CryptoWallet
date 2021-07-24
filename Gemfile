@@ -40,6 +40,7 @@ gem 'pry-rails'
 gem 'tty-spinner'
 gem 'rails-i18n', '~> 5.1'
 gem 'rails-assets-jquery', source: 'https://rails-assets.org'
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 
 
 group :development, :test do
