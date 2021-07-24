@@ -2,7 +2,8 @@
   "name": "crypto_wallet",
   "private": true,
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "notifyjs": "^3.0.0"
   },
   "version": "1.0.0",
   "main": "index.js",
