@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "jquery": "^3.6.0",
+    "notify-js-legacy": "^0.4.1",
     "notifyjs": "^3.0.0"
   },
   "version": "1.0.0",
