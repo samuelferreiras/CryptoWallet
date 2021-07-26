@@ -3,23 +3,7 @@
     <p class="lead">Este é o Crypto Wallet, uma app para você cadastrar e acompanhar suas criptomoedas.</p>
     <hr class="my-4">
     <p>Para começar, selecione uma das opções abaixo:</P>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Moedas</a>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Tipos de Mineração</a>
+    <%= render "menu" %>
 </div>
 
 
-<p>O idioma usado nessa aplicação é: <strong> <%= t('actual_locale') %> </strong></p>
-<p><strong>Data:</strong> <%= l(Date.today) %></p>
-<p><%= t('hello') %></p>
-
-<%= render "menu" %>
-
-<p>
-    Você está em ambiente de <strong><%= ambiente_rails %></strong>
-</p>
-<p>
-    Eu sou uma variável de instância/sessão <strong><%= @meu_nome %></strong>
-</p>
-<p>
-    Meu curso é o curso de <strong><%= @curso %></strong>
-</p>
