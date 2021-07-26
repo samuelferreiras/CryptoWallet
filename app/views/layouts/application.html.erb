@@ -6,7 +6,6 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
    
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -14,10 +13,17 @@
   </head>
 
   <body>
-    <h1>CABEÇALHO - <%= params[:controller] %></h1>
-    <%= yield %> <%# index.html.erb, edit.html.erb %>
-    <H1>RODAPÉ</h1>
+    <div class="container-fluid">
+            <ul class="nav justify-content-end">
+          <li class ="nav-item">
+            <a class="nav-link" href="#">Português</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inglês</a>
+          </li>
+      </ul>
 
-    <script>$.notify("Funcionouuu!", "success");</script>
+      <%= yield %> 
+    </div>
   </body>
 </html>
