@@ -11,6 +11,7 @@ pt-BR:
     show: "Mostrar"
     delete: "Apagar"
     new: "Novo"
+    back: "Voltar"
   new:
     coin: "Nova Moeda"
     mining_type: "Novo Tipo de Mineração"
